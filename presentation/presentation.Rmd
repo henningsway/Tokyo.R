@@ -1,0 +1,149 @@
+---
+title: "Creating your own website/ blog with R"
+# title: "Tokyo.R"
+subtitle: "An intro to the `blogdown`-package"
+# subtitle: "Creating simple blogs with blogdown"
+author: "Henning Bumann @ Tokyo.R"
+date: "2017/04/01"
+output:
+  xaringan::moon_reader:
+#    chakra: libs/remark-latest.min.js
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Setting up a website can be easy!
+### Many reasons to set up ab website or blog
+- document project
+- contribute to community
+
+-> Use *Rmarkdown* and publish right from RStudio
+
+### It's simple to set up, 
+### simple to use
+### and simple to publish
+
+-> `blogdown`-package (Yihui Xie)
+
+???
+Why should you consider a blog?
+- web is/ should be about collaboration, freedom and sharing (not surveillance)
+- you want to contribute, you need some kind of plattform to do so.
+- But it would be nice to be able to share R code with others! 
+- I guess, most of us use RStudio for working with R and many of us wil use git and github to control and possibly share our source code. RStudio provides extensive support for literate programming and reproducable research via the `knitr` and `rmarkdown` packages.
+- easily contribute to R-bloggers or other blog aggregators
+
+---
+# Choose the right tool for the job!
+### blogdown
+
+- it's a combination of *HUGO* (static page generator) and <\br> *RMarkdown* (literate programming technology)
+
+- it's very simple to use:
+
+```{r, eval = FALSE}
+install_hugo()
+new_post()
+build_site
+```
+
+---
+class: inverse, center, middle
+background-image: url(https://proquestionasker.github.io/blog/img/SiteTutorial.jpg)
+
+# Demotime!
+
+---
+# Demo 1: Create a Website locally
+
+![](https://proquestionasker.github.io/blog/img/SiteTutorial.jpg)
+
+## Install Hugo
+
+```{r, eval=FALSE}
+install.packages("blogdown")
+library(blogdown)
+install_hugo  # install Hugo
+```
+## Create Website
+
+```{r, eval=FALSE}
+new_site
+```
+## Select a suitable theme
+
+```{r, eval=FALSE}
+install_theme
+```
+## Create a post
+
+```{r, eval=FALSE}
+new_post
+```
+## Inspect site
+
+```{r, eval=FALSE}
+
+```
+
+???
+- Create site needs a empty folder
+- explain `options(servr.daemon = TRUE)`
+
+
+## Demo 2: Publish to Githubpages
+
+```{r, eval = FALSE}
+setup.sh
+deploy.sh
+```
+
+---
+# What i like about `blogdown`!
+.pull-left[
+### this is great
+- very easy to set up
+- fast!
+- writing blogposts from the comfort of your favorite editor. ;-)
+- great variability of easy to install themes, which can be tweaked
+- all the features of (html-)rmarkdown can be used and interactive htmlwidgets can be embedded easily
+]
+
+.pull-right[
+### this is a little strange
+- publication to githubpages ist still a bit akward
+]
+
+---
+# I hope, you will build your own site soon
+- I shope you will also create a blogdown page soon (and tell me about it)
+- if you come to Germany in the future, please get in touch
+## any questions?
+
+
+## Contact info:
+- City: Hamburg, Germany
+- E-Mail: [henningsway@posteo.de](mailto:henningsway@posteo.de)
+- Github: [henningsway](https://github.com/henningsway)
+- Twitter: [henningsway](https://twitter.com/henningsway)
+
+
+---
+# References
+- blogdown-Website: https://github.com/rstudio/blogdown
+- Blogposts about blogdown (some of them made with blogdown):
+    - A very extensive intro to publishing your site on githubpages:
+      https://proquestionasker.github.io/blog/Making_Site/
+    - https://tclavelle.github.io/
+    - asdf
+- Rmarkdown: http://rmarkdown.rstudio.com/
+- Hugo
+    - Themes: http://themes.gohugo.io/
+    - Wiki: 

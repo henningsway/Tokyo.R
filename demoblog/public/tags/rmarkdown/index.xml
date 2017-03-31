@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rmarkdown on My New Hugo Site</title>
+    <link>/tags/rmarkdown/index.xml</link>
+    <description>Recent content in Rmarkdown on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>tokyo.R</title>
+      <link>/post/2017-03-31-tokyo-r/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-03-31-tokyo-r/</guid>
+      <description>&lt;div id=&#34;hey-there&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Hey there&lt;/h2&gt;
+&lt;p&gt;Hello Tokyo.R!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lets-use-some-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Let’s use some R!&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(mapdata)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: maps&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;map(&amp;quot;japan&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-03-31-tokyo-r_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+---
+title: tokyo.R
+date: '2017-03-31'
+Categories:
+  - R
+  - testing
+Tags:
+  - Rmarkdown
+  - Tokyo
+menu: main
+---
+
+## Hey there
+
+Hello Tokyo.R!
+
+## Let's use some R!
+```{r}
+library(mapdata)
+map("japan")
+```
+
