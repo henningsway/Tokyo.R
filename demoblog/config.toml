@@ -1,5 +1,0 @@
-theme = "hugo-theme-zen"
-languageCode = "en-us"
-title = "Hello Tokyo.R"
-baseURL = "http://example.org/"
-publishDir = "../docs"
