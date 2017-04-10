@@ -66,10 +66,13 @@ Why should you consider a blog?
 ---
 class: inverse, center
 background-image: url(https://proquestionasker.github.io/blog/img/SiteTutorial.jpg)
-background-position: 50% 82%
+background-size: 600px
 
 # Demotime!
 
+.footnote[
+*Image-Credit: [Amber Thomas](https://proquestionasker.github.io/blog/Making_Site/)*
+]
 ---
 # (Creating a Website locally)
 ### Install Hugo
